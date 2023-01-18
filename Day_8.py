@@ -37,7 +37,7 @@ paint_calc(height=test_h, width=test_w, cover=coverage)
 #  otherwise prim
 
 #Write your code below this line 👇
-basic_range = range(1,101)
+basic_range = range(2,101)
 
 def prime_checker(number):
     prime_list = []
@@ -57,7 +57,7 @@ prime_checker(number=n)
 # Another - simpler? approach, using modulo:
 
 #Write your code below this line 👇
-basic_range = range(1,101)
+basic_range = range(2,101)
 
 def prime_checker(number):
     prime_list = []
