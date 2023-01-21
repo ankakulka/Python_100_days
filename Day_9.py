@@ -72,3 +72,21 @@ def add_new_country(country, num_visits, cities):
 add_new_country("France", 4, ["Paris", "Marseille", "Nice", "Toulouse"])
 
 print(travel_log)
+
+#  Connections map: use a func to create a dict of connections
+connections = []
+def train_connections(origin, destinations, region):
+    new_dict = {}
+    connections.append(new_dict)
+    new_dict.update({"origin": origin})
+    new_dict.update({"destinations": destinations})
+    new_dict.update({"region": region})
+
+
+#  Resizing imgs with PIL lib
+import PIL
+low_res_img = img.resize((img.width // 4, img.height // 4))
+low_res_img.show()
+
+
+
