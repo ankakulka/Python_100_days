@@ -4,9 +4,11 @@
 #  Why is i not printing:
 
 def my_func():
-    for i in range(0,20):
+    for i in range(0, 20):
         if i == 20:
             print("You got it")
+
+
 my_func()
 
 #  range() gives us the 0-19, not including the second parameter. 
@@ -14,7 +16,7 @@ my_func()
 
 # Similarly, in this case
 from random import randint
-dice_img = ["@","$", "£", "%", "*", "#"]
+dice_img = ["@", "$", "£", "%", "*", "#"]
 dice_num = randint(0,5)
 print(dice_img[dice_num])
 
