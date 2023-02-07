@@ -20,5 +20,7 @@ for question in question_data:
 quiz = Quiz(question_bank)
 quiz.next_question()
 
-
+#if quiz has q remaining:
+while quiz.still_has_questions():
+    quiz.next_question()
 
